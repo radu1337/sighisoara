@@ -1,0 +1,16 @@
+// mixins
+@import "modules/variables";
+@import "modules/clearfix";
+@import "modules/grid-framework";
+@import "modules/grid";
+
+//modules
+@import "partials/normalize";
+@import "partials/grid";
+@import "partials/chat";
+
+* {
+  box-sizing: border-box;
+}
+
+

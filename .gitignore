@@ -14,3 +14,8 @@ node_modules
 
 # Os stuff
 .AppleDouble/
+.DS_Store
+
+#cache
+.sass-cache/
+public/css/*
