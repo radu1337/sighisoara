@@ -5,21 +5,19 @@
     <link href="css/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-sm-10 col-xs-10">
-          <h1>Sighisoara</h1>
-          <a href="javascript:;" id="clicker">Click me</a>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-2">
-          <ul class="message" id="messages"></ul>
-          <form action="" id="chat">
-            <input id="m" autocomplete="off" /><button>Trimite</button>
-          </form>
-        </div>
-      </div>
+
+    <div class="game">
+
     </div>
-    
+
+    <div class="chat" id="chat">
+      <ul class="message" id="messages"></ul>
+      <form action="" id="chat">
+        <input type="text" id="mess" autocomplete="off" />
+        <button>Trimite</button>
+      </form>
+    </div>
+
     <script src="/socket.io/socket.io.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
     <script src="js/frontend.js"></script>

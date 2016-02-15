@@ -1,16 +1,18 @@
-// mixins
-@import "modules/variables";
-@import "modules/clearfix";
-@import "modules/grid-framework";
-@import "modules/grid";
-
 //modules
 @import "partials/normalize";
-@import "partials/grid";
+@import "partials/game";
 @import "partials/chat";
+
+@import url(https://fonts.googleapis.com/css?family=Caudex);
+
+body {
+  background-color: #070021;
+}
 
 * {
   box-sizing: border-box;
+  font-family: 'Caudex';
+  color: #fff;
 }
 
 
