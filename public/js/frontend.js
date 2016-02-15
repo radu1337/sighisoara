@@ -1,6 +1,6 @@
 var socket = io();
 
-console.log(socket);
+//console.log(socket);
 
 $('form#chat').submit(function(){
   socket.emit('chat message', $('#mess').val());
@@ -15,17 +15,7 @@ socket.on('chat message', function(msg){
   $('#messages').append($('<li>').text(msg));
 });
 
-socket.on('set tile', function(tileParams){
-  console.log(tileParams);
-});
-
-// keep input focused
-
-$("#chat").on("mouseup", function () {
-    $('input#mess', this).focus();
-});
-
-// tiles and tile sellection
+// data
 
 var tiles = [
   { id:      "001",
@@ -36,16 +26,43 @@ var tiles = [
   },
   { id:      "002",
     top:     "field",
-    right:   "road",
-    bottom:  "field",
-    left:    "road"
+    right:   "field",
+    bottom:  "road",
+    left:    "field"
   },
   { id:      "003",
     top:     "castle",
-    right:   "field",
+    right:   "road",
     bottom:  "road",
     left:    "field"
   }
 ];
 
-var randomTile = tiles[Math.floor(Math.random()*tiles.length)];
+// functions
+
+var sellectTile = function() {
+  var randomTile = tiles[Math.floor(Math.random()*tiles.length)];
+
+  $("#user_tile").html("<img src=\"images/tile_" +  randomTile.id + ".png\" alt=\"Tile 001\" />");
+
+  //console.log(randomTile);
+};
+
+// init
+
+sellectTile();
+
+// actions
+
+$("#chat").on("mouseup", function () {
+  $('input#mess', this).focus();
+});
+
+$("#user_tile").on("mousedown", function(){
+  console.log(1);
+  sellectTile();
+});
+
+
+
+
