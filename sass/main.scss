@@ -1,0 +1,18 @@
+//modules
+@import "partials/normalize";
+@import "partials/game";
+@import "partials/chat";
+
+@import url(https://fonts.googleapis.com/css?family=Caudex);
+
+body {
+  background-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Caudex';
+  color: #fff;
+}
+
+

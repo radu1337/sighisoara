@@ -1,0 +1,22 @@
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directories
+node_modules
+
+# Os stuff
+.AppleDouble/
+.DS_Store
+
+#cache
+.sass-cache/
+public/css/*
+public/images/

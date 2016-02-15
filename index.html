@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sighisoara</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="username_box" id="username_box">
+      <form action="" id="submit_username">
+        <input type="text" id="username" autocomplete="off" />
+        <button>Username</button>
+      </form>
+    </div>
+
+    <div class="game" id="game">
+
+    </div>
+
+    <div class="chat" id="chat">
+      <ul class="message" id="messages"></ul>
+      <form action="" id="chat">
+        <input type="text" id="mess" autocomplete="off" />
+        <button>Trimite</button>
+      </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="js/frontend.js"></script>
+  </body>
+</html>
