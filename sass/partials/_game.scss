@@ -1,8 +1,10 @@
 .game {
   position: fixed;
+  display: none;
   bottom: 30px;
   left: 50%;
-  margin-left: - 43px;
+  margin: -71px 0 0 -100px;
+  width: 200px;
   width: 90px;
   height: 90px;
   border: 2px solid #91551b;
@@ -11,6 +13,11 @@
 
   img {
     border-radius: 3px;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
 
     &:hover {
       cursor: pointer;
