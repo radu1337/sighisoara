@@ -4,6 +4,7 @@
 @import "partials/chat";
 
 @import url(https://fonts.googleapis.com/css?family=Caudex);
+@import url(https://fonts.googleapis.com/css?family=Uncial+Antiqua);
 
 body {
   background-color: #000;
@@ -11,7 +12,7 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: 'Caudex';
+  font-family: 'Caudex', serif;
   color: #fff;
 }
 
