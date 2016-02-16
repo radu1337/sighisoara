@@ -3,7 +3,7 @@
   display: none;
   bottom: 30px;
   left: 50%;
-  margin: -71px 0 0 -100px;
+  margin: 0 0 0 -45px;
   width: 200px;
   width: 90px;
   height: 90px;
@@ -26,11 +26,12 @@
 }
 
 .title {
-  padding: 1em 2em;
+  margin: 0;
+  padding: 0.5em 2em;
   width: 100%;
   font-size: 50px;
   font-family: 'Uncial Antiqua', cursive;
-  color: #f8f3d0;
+  color: #FFF569;
   text-align: center;
-  text-shadow: 0px 0px 4px #182447;
+  text-shadow: 1px 1px 4px #182447, 1px 1px 4px #182447, 1px 1px 4px #182447, 1px 1px 4px #182447;
 }
