@@ -1,6 +1,6 @@
 # sighisoara
 
-Sighisoara is a board game clone of a game with a french town name. Sighisuara is also a real town from Romania, and it's center is a still alive medieval fortified city. 
+Sighisoara is a board game clone of a game with a french town name (Carcassonne). Sighisuara is also a real town from Romania, and it's center is a still alive medieval fortified city. 
 
 More info on the city here: https://en.wikipedia.org/wiki/Sighi%C8%99oara
 
